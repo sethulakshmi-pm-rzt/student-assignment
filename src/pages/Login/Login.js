@@ -5,7 +5,7 @@ class Login extends Component {
   render() {
     return (
       <div className="login-wrapper">
-        {/*<h2 className={"login-heading"}>Welcome to Embibe</h2>*/}
+        <h2 className={"login-heading"}>Welcome to Embibe</h2>
         <form className="student-login-wrapper">
           <span className={'login-id'}>Enter the id</span>
           <input
