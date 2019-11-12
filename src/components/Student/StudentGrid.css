@@ -1,0 +1,65 @@
+.studGrid-wrapper {
+  width: calc((100% / 3) - 62px);
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 20px;
+  max-height: 200px;
+}
+
+.stud-name {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.stud-id {
+
+}
+
+.studGrid-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stud-class {
+
+}
+
+.stud-marks-wrapper {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.stud-marks-heading {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.stud-marks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stud-marks-total {
+  font-size: 18px;
+  font-weight: 600;
+  color: green;
+  float: left;
+}
+
+/*tablet*/
+@media (max-width: 960px) {
+  .studGrid-wrapper {
+    width: calc((100% / 2) - 62px);
+  }
+}
+
+/*Mobile phone*/
+@media (max-width: 560px) {
+  .studGrid-wrapper {
+    width: calc((100% / 1) - 62px);
+  }
+}

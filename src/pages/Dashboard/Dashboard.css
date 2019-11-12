@@ -1,0 +1,35 @@
+.student-dashboard-wrapper {
+  height: 100%;
+}
+
+.student-dashboard-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.student-grid-wrapper {
+  height: calc(100% - 78px);
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.stud-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search {
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}

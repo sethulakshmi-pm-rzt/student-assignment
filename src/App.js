@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from './pages/Dashboard/Dashboard';
+import Login from './pages/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      <h2>Welcome to Embibe</h2>
-      <form className="student-login-wrapper">
-
-      </form>
+      {/*<Login />*/}
+      <Dashboard />
     </div>
   );
 }
